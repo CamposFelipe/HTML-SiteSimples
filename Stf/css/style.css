@@ -1,0 +1,130 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+li{
+	list-style:none;
+	display:inline;
+}
+
+a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+/*Contato*/
+#fotoa{
+	width: 330px;
+	height: 300px;
+	background-image: url('img/logoa.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#fundocontato{
+	background-image: url('../img/fundocontato.jpg');
+	min-height: 100%;
+	float: top;
+}
+
+#fundoservico{
+	background-image: url('../img/fundocontato.jpg');
+	min-height: 100%;
+	float: top;
+}
+
+#sobre{
+	background-image: url('../img/fundocontato.jpg');
+}
+
+.thumbnail{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #59AEE3;
+	border-radius: 0px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.thumb2{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #fff;
+	border-radius: 0px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	transition: 0.5s;
+}
+
+.thumb2:hover{
+	background-color: rgba(89, 174, 227, 1);
+	transition: 0.5s;
+}
+
+.txtsobre{
+	font-family: arial;
+	color: #000;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.txtsobrea{
+	font-size: 1.3em;
+	font-family: arial;
+	color: #fff;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-shadow: 1px 1px #000;
+}
+
+.indextxt{
+	font-size: 1.1em;
+	font-family: arial;
+	color: #000;
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+.svs{
+	color: #000;
+}
+.svs:hover{
+	color: #59aee3;
+	transition: 0.2s;
+}
+
+/*rodape*/
+
+#rodape{
+	background-color: #59aee3;
+	color: #fff;
+	min-height: 100%;
+	float: left;
+	text-align: center;
+	font-family: arial;
+}
+
+#mapa{
+	margin-top: 0px;
+}
+
+#myCarousel{
+	margin-top: -20px;
+}
+
+.txtbranco{
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+
+#formulario{
+	margin-top: 5%;
+}
